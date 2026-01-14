@@ -1,2 +1,2 @@
-# homepage
-A repository for my personal website
+# ./homepage
+A repository for my personal website.
