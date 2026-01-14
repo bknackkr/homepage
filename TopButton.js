@@ -3,8 +3,15 @@ let topButton = document.getElementById("topBtn");
 // Const for easy adjustment of the scroll margin
 const SCROLL_VALUE = 100;
 // Run the function on window load to make sure button is hidden
-window.addEventListener('load', scrollFunction);
-// When the user scrolls down 20px from the top of the document, show the button
+if (window.addEventListener) {
+    window.addEventListener('load', scrollFunction);
+} else if (window.attachEvent) {
+    window.attachEvent('onload', scrollFunction);
+} else {
+    window.onload = scrollFunction;
+}
+
+// When the user scrolls down const SCROLL_VALUE pixels from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
