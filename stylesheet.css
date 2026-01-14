@@ -24,19 +24,19 @@ h1, h2, h3 {
     top:100vh;
     transform:translateY(-200%);
     width:10%;
-    z-index: 99; /* Make sure it does not overlap */
-    border: none; /* Remove borders */
-    outline: none; /* Remove outline */
-    background-color: #FFFEEE; /* Set a background color */
-    color: #0f0f0f; /* Text color */
-    cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 15px; /* Some padding */
-    border-radius: 10px; /* Rounded corners */
-    font-size: 18px; /* Increase font size */
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #FFFEEE;
+    color: #0f0f0f;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
 }
 
 #topBtn:hover {
-    background-color: #807f77; /* Add a dark-grey background on hover */
+    background-color: #807f77;
 }
 
 .testing-space {
