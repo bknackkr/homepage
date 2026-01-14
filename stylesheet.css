@@ -22,8 +22,8 @@ h1, h2, h3 {
 #topBtn {
     position:fixed;
     top:100vh;
-    transform:translateY(-200%);
-    width:10%;
+    transform:translateY(-150%);
+    min-width: 10%;
     z-index: 99;
     border: none;
     outline: none;
@@ -36,9 +36,9 @@ h1, h2, h3 {
 }
 
 #topBtn:hover {
-    background-color: #807f77;
+background-color: #807f77;
 }
 
 .testing-space {
-    margin-top: 1024px;
+margin-top: 1024px;
 }
